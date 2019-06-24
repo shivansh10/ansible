@@ -1,0 +1,12 @@
+---
+ - hosts: localhost
+   tasks:
+    - ec2:
+        key_name: cloud
+        instance_type: t2.micro
+   packet_write_wait: Connection to 13.235.80.189 port 22: Broken pipe
+Shivanshs-MacBook-Air:Downloads shivansh$ 
+        volumes:
+          - device_name: /dev/xvdb
+            volume_type: gp2
+            volume_size: 4
